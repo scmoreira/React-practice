@@ -1,0 +1,129 @@
+body {
+  background: #036b50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #079254, #079254, #057d52, #036b50);  
+  background: linear-gradient(to right, #079254, #079254, #057d52, #036b50); 
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  margin: 30px 0;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  font-size: 4.8rem!important;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color:#036b50;
+  margin-bottom:30px;
+  font-size:3rem!important;
+  text-align: center;
+}
+
+.content {
+  padding:20px;
+}
+
+.main-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.submit .button {
+  color: white;
+  background-color: #057d52;
+}
+
+.budget p {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.budget p span {
+  font-weight: normal;
+}
+
+.field {
+  margin-bottom: 2rem;
+}
+
+.error {
+  text-align: center;
+}
+
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+.alert p {
+  margin-bottom: 0!important;
+}
+
+.alert-primary {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.alert-warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+#expenses {
+  margin-bottom: 30px;
+}
+
+.expenses {
+  margin-bottom: 2rem;
+}
+
+.expenses li{
+  list-style: none;
+  margin-bottom: 0rem;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 1rem 0;
+}
+
+.expenses li:last-of-type {
+  margin-bottom: 0!important;
+}
+
+.expenses li p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0;
+}
+
+.expenses li p .expense {
+  background-color: #057d52;
+  padding: 1rem;
+  color:white;
+}
