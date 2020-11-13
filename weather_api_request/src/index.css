@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav .brand-logo {
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+label {
+  font-size: 1rem;
+}
+
+.select-wrapper+label {
+  font-size: 1rem;
+}
+
+.input-field label {
+  color: white;
+}
+
+.input-field input[type=text]:focus + label {
+  color: white;
+}  
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+input[type=text]:not(.browser-default) {
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid white;
+  -webkit-box-shadow: 0 1px 0 0 white;
+  box-shadow: 0 1px 0 0 white;
+  color: white;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label {
+  color: white;
+}
+
+input[type="radio"]:not(:checked)+span:before, [type="radio"]:not(:checked)+span:after {
+  border: 2px solid #ffffff;
+}
+
+input[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {
+  border: 2px solid #ffffff;
+}
+
+input[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+    background-color: #ffffff;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+  color: #1565c0;
+}
+
+.input-field>input[type]:-webkit-autofill:not(.browser-default):not([type="search"])+label {
+  transform: translateY(-20px) scale(0.8);
+}
+
+.radios label {
+  color: white;
+  margin-right: 2rem;
+}
+
+.container-form {
+  padding: 3rem 0 1px 0;
+  background-color: #2196f3;
+}
+
+.messagge {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.search-engine i {
+  width: 100%;
+}
+
+.error {
+  padding: 1rem!important;
+  color:white!important;
+  margin-top: 3rem;
+  text-align: center!important;
+  text-emphasis: left;
+}
+
+.card-panel h2 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.card-panel p {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.temperature {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 4rem!important
+}
+
+.temperature span {
+  font-size: 2rem!important;
+  vertical-align: super;
+}
+
+.btn-block {
+  display: block!important;
+}
